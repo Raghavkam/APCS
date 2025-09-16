@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Canvas xmlns="http://www.jgrasp.org">
+  <Language>Java</Language>
+  <ShowTypes>false</ShowTypes>
+  <Version>2</Version>
+  <Grid>
+    <Snap>true</Snap>
+    <Show>false</Show>
+  </Grid>
+  <Scope id="0">
+    <Name>add</Name>
+    <Signature>(LTreeNode;Ljava/lang/String;)LTreeNode;</Signature>
+    <DeclaringType>BST</DeclaringType>
+    <Depth>2</Depth>
+  </Scope>
+  <Scope id="1">
+    <Name>preorderExtension</Name>
+    <Signature>(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;</Signature>
+    <DeclaringType>BST</DeclaringType>
+    <Depth>1</Depth>
+  </Scope>
+  <Scope id="2">
+    <Name>preorderExtension</Name>
+    <Signature>(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;</Signature>
+    <DeclaringType>BST</DeclaringType>
+    <Depth>2</Depth>
+  </Scope>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>380</X>
+      <Y>60</Y>
+      <W>137</W>
+      <H>55</H>
+    </Bounds>
+    <Viewer>
+      <ScopeID>0</ScopeID>
+      <Expression>`local java.lang.String` s</Expression>
+      <ViewerClass>jgrasp_viewers.java__lang__String_FormattedView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>90</X>
+      <Y>180</Y>
+      <W>98</W>
+      <H>46</H>
+    </Bounds>
+    <Viewer>
+      <ScopeID>1</ScopeID>
+      <Expression>`local java.lang.String` preOrder</Expression>
+      <ViewerClass>jgrasp_viewers.java__lang__String_FormattedView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>310</X>
+      <Y>170</Y>
+      <W>98</W>
+      <H>46</H>
+    </Bounds>
+    <Viewer>
+      <ScopeID>1</ScopeID>
+      <Expression>`local java.lang.String` root</Expression>
+      <ViewerClass>jgrasp_viewers.java__lang__String_FormattedView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>540</X>
+      <Y>60</Y>
+      <W>279</W>
+      <H>378</H>
+    </Bounds>
+    <Viewer>
+      <ScopeID>0</ScopeID>
+      <Expression>`local TreeNode` t</Expression>
+      <ViewerClass>jgrasp_viewers.java__lang__Object_LinkedView</ViewerClass>
+      <ViewerData>
+                                
+        
+        
+        <ViewData>
+                                        
+          
+          
+          <Embedded>false</Embedded>
+                                      
+        
+        
+        </ViewData>
+                              
+      
+      
+      </ViewerData>
+    </Viewer>
+  </Frame>
+  <Frame>
+    <Bounds>
+      <AutoSize>false</AutoSize>
+      <X>120</X>
+      <Y>210</Y>
+      <W>317</W>
+      <H>287</H>
+    </Bounds>
+    <PanelSize>
+      <Key>jgrasp_viewers.java__lang__Object_LinkedView0</Key>
+      <Order>4</Order>
+      <W>314</W>
+      <H>313</H>
+    </PanelSize>
+    <Viewer>
+      <ScopeID>0</ScopeID>
+      <Expression>this</Expression>
+      <ViewerClass>jgrasp_viewers.java__lang__Object_LinkedView</ViewerClass>
+      <ViewerData>
+                                
+        
+        
+        <ViewData>
+                                        
+          
+          
+          <Embedded>false</Embedded>
+                                      
+        
+        
+        </ViewData>
+                              
+      
+      
+      </ViewerData>
+    </Viewer>
+  </Frame>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>750</X>
+      <Y>140</Y>
+      <W>98</W>
+      <H>46</H>
+    </Bounds>
+    <Viewer>
+      <ScopeID>1</ScopeID>
+      <Expression>`local java.lang.String` postorder</Expression>
+      <ViewerClass>jgrasp_viewers.java__lang__String_FormattedView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Frame>
+    <Bounds>
+      <AutoSize>false</AutoSize>
+      <X>210</X>
+      <Y>70</Y>
+      <W>188</W>
+      <H>58</H>
+    </Bounds>
+    <PanelSize>
+      <Key>jgrasp_viewers.java__lang__String_FormattedView0</Key>
+      <Order>4</Order>
+      <W>194</W>
+      <H>93</H>
+    </PanelSize>
+    <Viewer>
+      <ScopeID>1</ScopeID>
+      <Expression>`local java.lang.String` postorder</Expression>
+      <ViewerClass>jgrasp_viewers.java__lang__String_FormattedView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>90</X>
+      <Y>50</Y>
+      <W>98</W>
+      <H>46</H>
+    </Bounds>
+    <Viewer>
+      <ScopeID>2</ScopeID>
+      <Expression>`local java.lang.String` inorder</Expression>
+      <ViewerClass>jgrasp_viewers.java__lang__String_FormattedView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Size>
+    <W>720</W>
+    <H>450</H>
+  </Size>
+  <ESize>
+    <W>720</W>
+    <H>450</H>
+  </ESize>
+</Canvas>
